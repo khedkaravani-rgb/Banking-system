@@ -1,0 +1,14 @@
+#BlueJ class context
+#Fri Oct 16 14:47:09 IST 2026
+comment0.target=Bank
+comment0.text=\r\n Holds all accounts and handles account creation, login and transfers.\r\n
+comment1.target=Bank()
+comment2.params=name pin openingBalance
+comment2.target=Account createAccount(java.lang.String, java.lang.String, double)
+comment3.params=accountNumber pin
+comment3.target=Account login(java.lang.String, java.lang.String)
+comment3.text=Returns the account if number and PIN match, otherwise null.
+comment4.params=from toNumber amount
+comment4.target=java.lang.String transfer(Account, java.lang.String, double)
+comment4.text=Returns null on success, or an error message.
+numComments=5

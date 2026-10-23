@@ -1,0 +1,21 @@
+#BlueJ class context
+#Fri Oct 16 14:47:05 IST 2026
+comment0.target=Account
+comment0.text=\r\n A single bank account\: holder, PIN, balance and transaction history.\r\n
+comment1.params=accountNumber holderName pin openingBalance
+comment1.target=Account(java.lang.String, java.lang.String, java.lang.String, double)
+comment2.target=java.lang.String getAccountNumber()
+comment3.target=java.lang.String getHolderName()
+comment4.target=double getBalance()
+comment5.params=attempt
+comment5.target=boolean checkPin(java.lang.String)
+comment6.target=java.util.List getTransactions()
+comment7.params=amount description
+comment7.target=boolean deposit(double, java.lang.String)
+comment7.text=Returns true if the deposit was accepted.
+comment8.params=amount description
+comment8.target=boolean withdraw(double, java.lang.String)
+comment8.text=Returns true if the withdrawal succeeded (positive amount and enough funds).
+comment9.params=description amount
+comment9.target=void addTransaction(java.lang.String, double)
+numComments=10

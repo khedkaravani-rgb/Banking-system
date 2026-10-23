@@ -1,0 +1,30 @@
+#BlueJ class context
+#Fri Oct 16 14:47:12 IST 2026
+comment0.target=BankingApp
+comment0.text=\r\n Swing GUI for the banking application.\r\n Run it in BlueJ\: right-click BankingApp > void main(String[] args).\r\n
+comment1.target=BankingApp()
+comment10.target=void doLogout()
+comment11.target=void refreshDashboard()
+comment12.params=prompt
+comment12.target=java.lang.Double askAmount(java.lang.String)
+comment13.params=text allowZero
+comment13.target=java.lang.Double parseAmount(java.lang.String, boolean)
+comment13.text=Parses an amount; shows an error and returns null if invalid.
+comment14.target=java.awt.GridBagConstraints baseConstraints()
+comment15.params=panel c row label field
+comment15.target=void addRow(javax.swing.JPanel, java.awt.GridBagConstraints, int, java.lang.String, javax.swing.JComponent)
+comment16.params=message
+comment16.target=void error(java.lang.String)
+comment17.params=message
+comment17.target=void info(java.lang.String)
+comment18.params=args
+comment18.target=void main(java.lang.String[])
+comment2.target=javax.swing.JPanel buildLoginPanel()
+comment3.target=javax.swing.JPanel buildCreatePanel()
+comment4.target=javax.swing.JPanel buildDashboardPanel()
+comment5.target=void doLogin()
+comment6.target=void doCreate()
+comment7.target=void doDeposit()
+comment8.target=void doWithdraw()
+comment9.target=void doTransfer()
+numComments=19
